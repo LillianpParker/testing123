@@ -1,0 +1,74 @@
+body::before {
+    background-image: url("../assets/bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+}
+
+.name {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button1 {
+    height: 65px;
+    line-height: 65px;  
+    width: 65px;  
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button2 {
+    height: 65px;
+    line-height: 65px;  
+    width: 65px;  
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .button3 {
+    height: 65px;
+    line-height: 65px;  
+    width: 65px;  
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+.skills {
+    height: 50%;
+    width: 50%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills_title {
+    text-align: center;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}

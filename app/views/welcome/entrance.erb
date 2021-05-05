@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+</head>
+<body>
+<div>
+    <div class="foreground">
+        <h1 class="name">Lillian Parker</h1>
+        <div class="edited_photo">
+            <%= link_to home_path do %>
+                <%= image_tag "test_img.png", class:"test_img" %>
+            <% end %>
+        </div>
+    </div>
+    <div class="background">
+        <%# <div class="shooting_stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div> %>
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+    </div>
+    </div>
+</body>
+</html>
